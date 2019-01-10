@@ -1,0 +1,24 @@
+
+def ask_floor_number
+puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu?"
+floor_number = gets.chomp
+end
+
+def stage
+a = number.to_i
+a.times do |i|
+	hashtag = "#{"#" * i}"
+	space = "#{" " * (a - i)}"
+end
+
+  def perform
+  floor_number = ask_number_floor
+
+
+
+	pyramide << space + hashtag
+end
+
+	if a <= 25
+		puts half_pyramid
+	end
